@@ -1,0 +1,30 @@
+{
+  "name": "pruebaAuth",
+  "version": "0.0.0",
+  "description": "prueba auth",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santiagomoreta/pruebaAuth.git"
+  },
+  "author": "sam",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/santiagomoreta/pruebaAuth/issues"
+  },
+ "dependencies": {
+    "express": "^4.1.1",
+    "mongoose": "^3.8.8",
+    "body-parser": "^1.0.2",
+    "bcrypt-nodejs": "0.0.3",
+    "passport": "^0.2.0",
+    "passport-http": "^0.2.2",
+    "passport-http-bearer": "^1.0.1",
+    "oauth2orize": "^1.0.1",
+    "express-session": "^1.6.1",
+    "ejs": "^1.0.0"
+  }
+}
